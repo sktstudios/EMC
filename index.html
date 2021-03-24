@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" >
+<meta name="description" content="La Terre Plate" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Site qui dénonce la terre plate" />
+<link href="main.css" rel="stylesheet" type="text/css" />
+<title>Projet Emc Terre plate</title>
+<link rel="icon" type="image/png" href="terre.png"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <ul class="haut">
+        <li>
+            <a href="#" class="rien" >
+                <img src="terre.png" alt="logo" width="40" >
+            </a>
+        </li>
+        <li>
+            <h2>Terreplate.tk</h2>
+        </li>
+        <li>
+            <div class="navigation">
+                <a href="#" class="lien4">Rien</a>
+            </div>
+        </li>
+        <li>
+            <a href="#" class="lien3">Rien</a>
+        </li>
+        <li>
+            <a href="#" class="lien2">Rien</a>
+        </li>
+        <li>
+            <a href="#" class="lien1">Origines</a>
+        </li>
+    </ul>
+</nav>
+    <img src="https://wallpaperaccess.com/full/345780.jpg" alt="image1" class="img1">
+<h1>Pensez-vous que la Terre est plate ?</h1>
+
+    <ul class="haut">
+        <li>
+            <input type="button" class="oui" value="Oui" onclick="oui();" >
+        </li>
+        <li>
+            <input type="button" id="button" class="non" value="Non" onclick="non()" >
+        </li>
+    </ul>
+<div class="reponse">
+    <p id="reponse"> </p>
+</div>
+<script type="text/javascript" >
+function oui() {
+    document.getElementById('reponse').innerHTML = 'Selon les platistes, vous avez raison';
+}
+</script>
+<script type="text/javascript" >
+function non() {
+    document.getElementById('reponse').innerHTML = 'Selon les scientifiques, vous avez raison';
+}
+</script>
+<footer>
+    <ul>
+        <li>
+            <p class="foot">Designed by Sébastien</p>
+            <p class="foot2">Content by Laurent Loïc et Sébastien</p>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>
